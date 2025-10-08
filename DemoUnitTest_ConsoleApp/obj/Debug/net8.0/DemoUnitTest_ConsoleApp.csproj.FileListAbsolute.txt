@@ -1,0 +1,17 @@
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\bin\Debug\net8.0\DemoUnitTest_ConsoleApp.exe
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\bin\Debug\net8.0\DemoUnitTest_ConsoleApp.deps.json
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\bin\Debug\net8.0\DemoUnitTest_ConsoleApp.runtimeconfig.json
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\bin\Debug\net8.0\DemoUnitTest_ConsoleApp.dll
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\bin\Debug\net8.0\DemoUnitTest_ConsoleApp.pdb
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.csproj.AssemblyReference.cache
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.AssemblyInfoInputs.cache
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.AssemblyInfo.cs
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.csproj.CoreCompileInputs.cache
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnit.2EAC3C0F.Up2Date
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.dll
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\refint\DemoUnitTest_ConsoleApp.dll
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.pdb
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.genruntimeconfig.cache
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\ref\DemoUnitTest_ConsoleApp.dll
