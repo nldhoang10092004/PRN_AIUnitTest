@@ -101,3 +101,4 @@ D:\LearnCSharp\DemoUnitTest_ConsoleApp\UnitTest\obj\Debug\net8.0\refint\UnitTest
 D:\LearnCSharp\DemoUnitTest_ConsoleApp\UnitTest\obj\Debug\net8.0\UnitTest.pdb
 D:\LearnCSharp\DemoUnitTest_ConsoleApp\UnitTest\obj\Debug\net8.0\UnitTest.genruntimeconfig.cache
 D:\LearnCSharp\DemoUnitTest_ConsoleApp\UnitTest\obj\Debug\net8.0\ref\UnitTest.dll
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\UnitTest\obj\Debug\net8.0\UnitTest.sourcelink.json

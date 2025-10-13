@@ -15,3 +15,4 @@ D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\
 D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.pdb
 D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.genruntimeconfig.cache
 D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\ref\DemoUnitTest_ConsoleApp.dll
+D:\LearnCSharp\DemoUnitTest_ConsoleApp\DemoUnitTest_ConsoleApp\obj\Debug\net8.0\DemoUnitTest_ConsoleApp.sourcelink.json

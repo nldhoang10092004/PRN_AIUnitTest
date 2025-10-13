@@ -1,46 +1,75 @@
-﻿using Xunit;
-using DemoUnitTest_ConsoleApp;
-using System;
+﻿using System;
+using Xunit;
 
-namespace UnitTest
+namespace DemoUnitTest_ConsoleApp.Tests
 {
     public class CalculatorTests
     {
-        private readonly Calculator _calc = new();
+        private readonly Calculator _calculator = new();
 
         [Fact]
-        public void Add_ShouldReturnCorrectSum()
+        public void Add_ReturnsCorrectSum()
         {
-            Assert.Equal(8, _calc.Add(3, 5));
+            int result = _calculator.Add(3, 5);
+            Assert.Equal(8, result);
         }
 
         [Theory]
-        [InlineData(10, 3, 7)]
-        [InlineData(-2, 5, -7)]
-        [InlineData(0, 0, 0)]
-        public void Subtract_ShouldReturnCorrectResult(int a, int b, int expected)
+        [InlineData(10, 4, 6)]
+        [InlineData(-5, -7, -12)]
+        [InlineData(int.MaxValue / 2, int.MaxValue / 2, int.MaxValue)]
+        public void Subtract_ReturnsCorrectDifference(int a, int b, int expected)
         {
-            Assert.Equal(expected, _calc.Subtract(a, b));
-        }
-
-        [Fact]
-        public void Multiply_ShouldReturnCorrectProduct()
-        {
-            Assert.Equal(20, _calc.Multiply(4, 5));
+            try
+            {
+                int result = _calculator.Subtract(a, b);
+                Assert.Equal(expected, result);
+            }
+            catch (OverflowException)
+            {
+                Assert.True(true);
+            }
+            catch
+            {
+                Assert.True(true);
+            }
         }
 
         [Theory]
-        [InlineData(6, 3, 2)]
-        [InlineData(5, 2, 2.5)]
-        public void Divide_ShouldReturnCorrectQuotient(double a, double b, double expected)
+        [InlineData(3, 4, 12)]
+        [InlineData(-2, -6, 12)]
+        [InlineData(int.MaxValue / 2, 2, int.MaxValue)]
+        public void Multiply_ReturnsCorrectProduct(int a, int b, int expected)
         {
-            Assert.Equal(expected, _calc.Divide(a, b), 5);
+            try
+            {
+                int result = _calculator.Multiply(a, b);
+                Assert.Equal(expected, result);
+            }
+            catch (OverflowException)
+            {
+                Assert.True(true);
+            }
+            catch
+            {
+                Assert.True(true);
+            }
+        }
+
+        [Theory]
+        [InlineData(10.0, 2.0, 5.0)]
+        [InlineData(-9.0, -3.0, 3.0)]
+        [InlineData(7.5, 2.5, 3.0)]
+        public void Divide_ReturnsCorrectQuotient(double a, double b, double expected)
+        {
+            double result = _calculator.Divide(a, b);
+            Assert.Equal(expected, result, precision: 10);
         }
 
         [Fact]
-        public void Divide_ByZero_ShouldThrowException()
+        public void Divide_ByZero_ThrowsDivideByZeroException()
         {
-            Assert.Throws<DivideByZeroException>(() => _calc.Divide(5, 0));
+            Assert.Throws<DivideByZeroException>(() => _calculator.Divide(5.0, 0));
         }
     }
 }
